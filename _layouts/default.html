@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        {% include head.html %}
+        <style type="text/css">
+          {% include main.min.css %}
+        </style>
+    </head>
+    <body>
+          {% include header.html %}
+          {% include social.html %}
+          {{ content }}
+          <!-- schema -->
+          <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "name": "Stephanie M. Wyatt",
+                "url": "https://stephaniewyatt.tel",
+                "sameAs": [
+                    "https://stephaniewyatt.net",
+                    "https://www.linkedin.com/in/stephaniemwyatt"
+                ]
+            }
+            </script>
+    </body>
+</html>

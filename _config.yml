@@ -15,7 +15,7 @@ website: 'stephaniewyatt.net'
 linkedin: 'stephaniewyatt'
 academia: 'tcu.academia.edu/StephanieWyatt'
 orcid: 'orcid.org/0000-0002-4472-5316'
-google_scholar: 'scholar.google.com/citations?user=43gFBr8AAAAJ'
+scholar: 'scholar.google.com/citations?user=43gFBr8AAAAJ'
 email: 'stephanie@stephaniewyatt.net'
 #instagram: '__USERNAME__'
 #blog_url: '__USERNAME__'
@@ -38,7 +38,7 @@ email: 'stephanie@stephaniewyatt.net'
 #vk: '__USERNAME__'
 #messenger: '__USERNAME__'
 
-social-links-order: [website, inkedin, academia, orcid, google_scholar, email]
+social-links-order: [website, inkedin, academia, orcid, scholar, email]
 
 # Advanced settings
 plugins:
@@ -167,7 +167,7 @@ social-links:
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-id-badge
 
-  - name: google_scholar
+  - name: scholar
     url-pattern: '__USERNAME__'
     icon-class: fab fa-2x fa-google
 
